@@ -1,0 +1,91 @@
+============================================================
+  PORT TARAYICI — Nida Subasi | 2026
+  Kullanim Kilavuzu
+============================================================
+
+Bu klasorde iki dosya bulunmaktadir:
+
+  guvenlik_tarayici_cmd.py   →  Terminal / komut satiri surumu
+  guvenlik_tarayici_gui.py   →  Gorsel arayuz (GUI) surumu
+
+Python 3.6 veya uzeri yeterlidir.
+Hic harici kutuphane kurmaniza gerek yoktur.
+
+------------------------------------------------------------
+  WINDOWS'DA CALISTIRMA
+------------------------------------------------------------
+
+YONTEM 1 — Cift Tiklama (Kolay):
+  Dosyaya cift tiklayin.
+  (Eger cmd penceresi acilip kapaniyorsa Yontem 2'yi deneyin.)
+
+YONTEM 2 — Komut Istemi ile:
+  1. Baslat > "cmd" yazin, Enter'a basin.
+  2. Dosyanin oldugu klasore gidin:
+       cd C:\Users\KULLANICI\Desktop\PortTarayici
+  3. Calistirin:
+       python guvenlik_tarayici_gui.py
+     ya da terminal surumu icin:
+       python guvenlik_tarayici_cmd.py
+
+  NOT: "python" komutu calismiyorsa "py" deneyin:
+       py guvenlik_tarayici_gui.py
+
+------------------------------------------------------------
+  MACOS'DA CALISTIRMA
+------------------------------------------------------------
+
+YONTEM 1 — Terminal ile (Onerilen):
+  1. Spotlight'i acin (Cmd + Space), "Terminal" yazin.
+  2. Dosyanin oldugu klasore gidin:
+       cd ~/Desktop/PortTarayici
+  3. Calistirin:
+       python3 guvenlik_tarayici_gui.py
+     ya da terminal surumu icin:
+       python3 guvenlik_tarayici_cmd.py
+
+YONTEM 2 — Cift Tiklama:
+  Dosyaya sag tiklayin > "Birlikte Ac" > "Python Launcher"
+  (Mac'inizde Python Launcher yuklu olmayabilir.)
+
+  NOT: macOS'ta ICMP ping komutu administrator izni
+  gerektirebilir. Boyle bir durumda terminal surumunu
+  su sekilde calistirin:
+       sudo python3 guvenlik_tarayici_cmd.py
+
+------------------------------------------------------------
+  LINUX'DA CALISTIRMA
+------------------------------------------------------------
+
+Terminal acin ve su komutu calistirin:
+  python3 guvenlik_tarayici_gui.py
+
+ICMP ping icin root yetkisi gerekebilir:
+  sudo python3 guvenlik_tarayici_cmd.py
+
+------------------------------------------------------------
+  PYTHON YUKLU DEGIL MI?
+------------------------------------------------------------
+
+Windows :  https://www.python.org/downloads/
+           Kurulum sirasinda "Add Python to PATH" kutusunu
+           isaretlemeyi unutmayin.
+
+macOS   :  https://www.python.org/downloads/
+           ya da terminal'de:  brew install python3
+
+Linux   :  sudo apt install python3   (Ubuntu/Debian)
+           sudo dnf install python3   (Fedora)
+
+------------------------------------------------------------
+  ONEMLI NOT
+------------------------------------------------------------
+
+Bu arac yalnizca egitim ve kisisel ogrenme amaci ile
+gelistirilmistir. Izinsiz ag taramasi yasal sorunlara
+yol acabilir. Yalnizca kendi aglarinizda ve izniniz olan
+sistemlerde kullaniiniz.
+
+============================================================
+  Hazirlayan : Nida Subasi  |  2026
+============================================================
